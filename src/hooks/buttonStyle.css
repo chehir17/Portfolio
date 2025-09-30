@@ -1,0 +1,28 @@
+.link {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0b0d2a
+;
+    text-decoration: none;
+    position: relative;
+}
+
+.link span,
+.link i {
+    position: relative;
+}
+
+.link i {
+    margin-left: 0.5em;
+}
+
+.link .color {
+    width: 2em;
+    height: 2em;
+    border-radius:2em;
+    background-color: #64B5F6;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    left: -0.65em;
+}
